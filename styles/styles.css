@@ -259,6 +259,11 @@ color:var(--Soft-Red);
     color: var(--Soft-Blue);
 }
 
+.subrayado{
+    box-shadow: 0 0.1rem 0rem var(--Soft-Red, 0.10)
+}
+
+
 @media (max-width: 375px){
 
     .navbar{        
